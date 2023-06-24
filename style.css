@@ -120,16 +120,6 @@ header nav > i {
     height: 3px;
 }
 
-/* .container .targetLine.animation-left {
-    animation: goLeft 0.5s ease-in-out alternate;
-}
-
-@keyframes goLeft {
-    100% {
-        transform: translateX(0);
-    }
-} */
-
 .container .targetLine.animation-right {
     animation: goRight 0.7s ease-out alternate;
 }
