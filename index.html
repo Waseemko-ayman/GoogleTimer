@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- normalize ربط ملف ال -->
+    <link rel="stylesheet" href="normalize.css">
+    <!-- Font Awessome Library -->
+    <link rel="stylesheet" href="all.min.css">
+    <!-- Google Fonts-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <!-- tab image -->
+    <!-- <link rel="shortcut icon" href="images/google.png"> -->
+    <!-- css ربط ملف ال -->
+    <link rel="stylesheet" href="style.css">
+    <title>Google Timer</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <i class="fa-solid fa-circle-half-stroke mode"></i>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="box">
+            <div class="tab">
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-hourglass-start"></i>
+                        <span>TIMER</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-stopwatch"></i>
+                        <span>STOPWATCH</span>
+                    </li>
+                </ul>
+                <span class="targetLine"></span>
+            </div>
+            <div class="time timer1">
+                <input type="text" placeholder="0s">
+            </div>
+            <div class="time timer2">
+                <input type="text" placeholder="0s 00">
+            </div>
+            <div class="control">
+                <div class="control-btn">
+                    <button type="button">START</button>
+                    <button type="reset">RESET</button>
+                </div>
+                <div class="icons">
+                    <i class="fa-solid fa-volume-high volume-icon"></i>
+                    <i class="fa-solid fa-expand"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="control.js"></script>
+</body>
+</html>
